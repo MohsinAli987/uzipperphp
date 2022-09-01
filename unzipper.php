@@ -13,6 +13,7 @@
 define('VERSION', '0.1.1');
 
 $timestart = microtime(TRUE);
+
 $GLOBALS['status'] = array();
 
 $unzipper = new Unzipper;
